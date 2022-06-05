@@ -31,7 +31,7 @@ body {
 .start {
     position: absolute;
     top: 60%;
-    left: 40%;
+    left: 30%;
     transform: translate(-50%, -50%);
     font-size: 30px;
     z-index: 1;
@@ -40,7 +40,7 @@ body {
 .stop {
     position: absolute;
     top: 60%;
-    left: 60%;
+    left: 70%;
     transform: translate(-50%, -50%);
     font-size: 30px;
     z-index: 1;
