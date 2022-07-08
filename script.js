@@ -2,6 +2,34 @@ let toplamSaniye = 0
 let saat = document.getElementById("saat")
 
 let z, k, m, s
+const clock = document.getElementById("clock1")
+const minutes = document.getElementById("minutes")
+const seconds = document.getElementById("seconds")
+
+setInterval(function() {
+    var T = new Date();
+    var saat = T.getHours()
+    var dakika = T.getMinutes()
+    var saniye = T.getSeconds();
+
+    clock.innerHTML = saat
+    minutes.innerHTML = dakika
+    seconds.innerHTML = saniye
+
+    if (saniye < 10) {
+        seconds.innerHTML = "0" + saniye
+    }
+
+    if (saat < 10) {
+        clock.innerHTML = "0" + saat
+    }
+
+    if (dakika < 10) {
+        minutes.innerHTML = "0" + dakika
+    }
+
+}, 1000)
+
 
 
 
