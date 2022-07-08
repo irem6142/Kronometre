@@ -29,7 +29,7 @@ body {
 }
 
 .clock {
-    position: relative;
+    position: absolute;
     width: 260px;
     height: 50px;
     background-color: yellow;
