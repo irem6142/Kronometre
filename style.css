@@ -28,6 +28,17 @@ body {
     text-shadow: 1px 2px white;
 }
 
+.clock {
+    position: relative;
+    width: 260px;
+    height: 50px;
+    background-color: yellow;
+    z-index: 1;
+    padding: 10px;
+    font-size: 50px;
+    padding-left: 40px;
+}
+
 .start {
     position: absolute;
     top: 60%;
